@@ -1,6 +1,6 @@
-"Jasons vimrc file.  All of these settings can
-"be changed.  Usually turning it off means
-"putting a no in front of the word.
+" Jason's vimrc file.  All of these settings can
+" be changed.  Usually turning it off means
+" putting a no in front of the word.
 
 " Set our leader keys
 let mapleader = ' '
@@ -31,6 +31,8 @@ syntax on
 :map <F4> :Sex<CR>
 " Terminal shortcut
 :map <Leader>tt :term<CR>
+" Set hlsearch to on if it is off, and set it off if it is on.
+:map <Leader>hh :set hls!<CR>
 
 " Turns off auto indent and smart indent
 " set noautoindent
